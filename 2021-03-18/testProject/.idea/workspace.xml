@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c4fee72-d348-41a2-85bb-a176bc806cd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/testProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,13 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="go build testProject/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -85,6 +89,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -94,6 +99,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="204" y="71" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.814@0.25.1440.814" timestamp="1616058341007" />
+    <state x="832" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616742128933">
+      <screen x="0" y="25" width="1920" height="994" />
+    </state>
+    <state x="832" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1920.994@0.25.1920.994" timestamp="1616742128932" />
     <state width="1358" height="195" key="GridCell.Tab.0.bottom" timestamp="1616058715464">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
@@ -110,9 +119,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="1358" height="195" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1616058715463" />
-    <state x="249" y="48" key="SettingsEditor" timestamp="1616058483139">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="332" y="53" key="SettingsEditor" timestamp="1616743195675">
+      <screen x="0" y="25" width="1920" height="994" />
     </state>
     <state x="249" y="48" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1616058483139" />
+    <state x="332" y="53" key="SettingsEditor/0.25.1920.994@0.25.1920.994" timestamp="1616743195675" />
   </component>
 </project>
