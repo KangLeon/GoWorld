@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c4fee72-d348-41a2-85bb-a176bc806cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,5 +125,9 @@
     </state>
     <state x="249" y="48" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1616058483139" />
     <state x="332" y="53" key="SettingsEditor/0.25.1920.994@0.25.1920.994" timestamp="1616743195675" />
+    <state x="1105" y="244" key="search.everywhere.popup" timestamp="1624089783800">
+      <screen x="0" y="25" width="1920" height="998" />
+    </state>
+    <state x="1105" y="244" key="search.everywhere.popup/0.25.1920.998@0.25.1920.998" timestamp="1624089783800" />
   </component>
 </project>
