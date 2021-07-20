@@ -23,6 +23,12 @@ func ServerHttp(w http.ResponseWriter, r *http.Request) {
 	va, _ := url.ParseQuery(rawquery)
 
 	fmt.Fprintln(w, "获取url中key为name的值", va.Get("name"))
+	fmt.Fprintln(w, "=================================")
+
+	for key := range r.Header {
+		fmt.Fprintf(w, "%s:%s\n", key, r.Header[key])
+	}
+
 }
 
 func main() {
