@@ -1,0 +1,18 @@
+syntax = "proto3";
+package Apple1;
+option go_package="Apple1/proto/gen/go;trippb";
+
+message Location {
+  double latitude = 1;
+  double longitude = 2;
+}
+
+message Trip {
+  string start = 1;
+  Location start_pos = 5;
+  repeated Location path_locations = 7;
+  string end = 2;
+  Location end_pos = 6;
+  int64  duration = 3;
+  int64 free_cent = 4;
+}
