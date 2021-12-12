@@ -7,12 +7,34 @@ message Location {
   double longitude = 2;
 }
 
+enum TripStatus{
+  TS_NOT_SEPECIFID = 0;
+  NOT_STARTED = 1;
+  IN_PROGRESS = 2;
+  FINISHED = 3;
+  PAID = 4;
+}
+
 message Trip {
   string start = 1;
   Location start_pos = 5;
   repeated Location path_locations = 7;
+  TripStatus status = 8;
   string end = 2;
   Location end_pos = 6;
   int64  duration = 3;
   int64 free_cent = 4;
+}
+
+message GetTripRequest {
+  string id = 1;
+}
+
+message GetTripResponse {
+  string id = 1;
+  Trip trip = 2;
+}
+
+service  TripService {
+  rpc GetTrip (GetTripRequest) returns (GetTripResponse);
 }
