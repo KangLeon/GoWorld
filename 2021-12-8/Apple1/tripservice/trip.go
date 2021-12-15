@@ -6,14 +6,11 @@ import (
 )
 
 // Service implements trip service
-type Service struct{}
-
-func (s *Service) mustEmbedUnimplementedTripServiceServer() {
-	//TODO implement me
-	panic("implement me")
+type Service struct {
+	*trippb.UnimplementedTripServiceServer
 }
 
-func (s *Service) GetTrip(c context.Context, req *trippb.GetTripRequest) (*trippb.GetTripResponse, error) {
+func (*Service) GetTrip(c context.Context, req *trippb.GetTripRequest) (*trippb.GetTripResponse, error) {
 	return &trippb.GetTripResponse{
 		Id: req.Id,
 		Trip: &trippb.Trip{
